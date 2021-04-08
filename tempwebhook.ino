@@ -22,5 +22,5 @@ void loop()
 {
     float temp_data = dht.getTempCelcius(); 
     Particle.publish("Temp", String(temp_data), PRIVATE);
-    delay(10000);
+    delay(30000);
 }
